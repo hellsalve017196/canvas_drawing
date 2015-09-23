@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+
+    <link rel="stylesheet" href="style.css"/>
+
+  </head>
+
+  <body style="margin: 0;;">
+    <div id="toolbar">
+        <!-- radius size -->
+        <div id="rad">
+          Radius<span id="radval">10</span>
+          <div class="radcontrol" id="decrad">-</div>
+          <div class="radcontrol" id="incrad">+</div>
+        </div>
+
+        <!-- colors -->
+        <div id="colors">
+          <div class="swatch" style="background-color: black"></div>
+            <div class="swatch" style="background-color: red"></div>
+            <div class="swatch" style="background-color: green"></div>
+            <div class="swatch" style="background-color: blue"></div>
+            <div class="swatch" style="background-color: yellow"></div>
+            <div class="swatch" style="background-color: orange"></div>
+            <div class="swatch" style="background-color: gold"></div>
+        </div>
+
+        <!-- saving -->
+        <div id="save">Save</div>
+    </div>
+
+    <canvas id="canvas" style="display: block;">
+      update your browser
+    </canvas>
+
+    <script type="text/javascript" src="sam.js"></script>
+    <script type="text/javascript" src="radius.js"></script>
+    <script type="text/javascript" src="color.js"></script>
+    <script type="text/javascript" src="save.js"></script>
+  </body>
+</html>
