@@ -62,3 +62,27 @@
 #save:hover{
     background-color: #141414;
 }
+
+#clear{
+    float: right;
+    margin-right: 20px;
+    height: 30px;
+    padding: 8px;
+    background-color: #434343;
+}
+
+#clear:hover{
+    background-color: #141414;
+}
+
+#eraser{
+    float: right;
+    margin-right: 20px;
+    height: 30px;
+    padding: 8px;
+    background-color: #434343;
+}
+
+#eraser:hover{
+    background-color: #141414;
+}

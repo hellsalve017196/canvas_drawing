@@ -8,7 +8,7 @@ var saveImage = function () {
     req.onreadystatechange = function() {
       if(req.readyState == 4 && req.status == 200)
       {
-          window.open('download.php?path='+req.responseText,'_blank');
+          document.getElementById("downloadframe").src = 'download.php?path='+req.responseText;
       }
     }
 
