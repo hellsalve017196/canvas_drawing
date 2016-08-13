@@ -1,5 +1,5 @@
 # canvas_drawing
-drawing on canvas and save in png format
+drawing on canvas and save in png format(With php).
 
 #INSTALL
 
