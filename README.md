@@ -9,4 +9,4 @@ move canvas_drawing to htdocs/www folder of xampp/wampp
 ```
 #DEMO
 
-http://www.agatafeedmill.com/paint/
+http://www.aliabdullahkhan.info/projects/canvas_draw
